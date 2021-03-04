@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script> 
+  function increase(){
+                var a = 1;
+                var textBox = document.getElementById("text");
+                textBox.value++;
+                
+            }    
+            function decrease(){
+              var textBox = document.getElementById("text");
+                textBox.value--;
+            }        
+                
+        </script>
+	 
+</head>
+<body>
+<button type="button" onclick="increase()">increase</button>
+        <input type="text" id="text" value="0">
+        <button type="button" onclick="decrease()">Decrease</button>
+</body>
+</html>
